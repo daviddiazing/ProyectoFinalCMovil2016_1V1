@@ -1,6 +1,4 @@
 <resources>
     <string name="app_name">ProyFinalCMovil2016_1V1</string>
     <string name="action_settings">Settings</string>
-    <string name="title_menuprincipal_list">MenuPrincipal</string>
-    <string name="title_menuprincipal_detail">MenuPrincipal Detail</string>
 </resources>
