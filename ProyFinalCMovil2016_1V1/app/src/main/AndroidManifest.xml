@@ -18,6 +18,22 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".MenuPrincipalListActivity"
+            android:label="@string/menu_principal_title" >
+        </activity>
+        <activity android:name=".EscanearCajaActivity"
+            android:label="@string/escanearCaja_title">
+        </activity>
+        <activity android:name=".ListarJuegosActivity"
+            android:label="@string/listarJuegos_title">
+        </activity>
+        <activity android:name=".UbicarTiendaActivity"
+            android:label="@string/ubicarTienda_title">
+        </activity>
+        <activity android:name=".MiniJuegoActivity"
+            android:label="@string/miniJuego_title">
+        </activity>
     </application>
 
 </manifest>

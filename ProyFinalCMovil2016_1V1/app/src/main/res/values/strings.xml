@@ -1,4 +1,13 @@
 <resources>
     <string name="app_name">ProyFinalCMovil2016_1V1</string>
+    <string name="menu_principal_title">Menú Principal</string>
+    <string name="escanearCaja_title">Escanear Caja</string>
+    <string name="listarJuegos_title">Listar Juegos</string>
+    <string name="ubicarTienda_title">Ubicar Tienda</string>
+    <string name="miniJuego_title">Mini Juego</string>
     <string name="action_settings">Settings</string>
+    <string name="string_escanearButton">Escanear caja</string>
+    <string name="string_listadoButton">Listado de juegos</string>
+    <string name="string_ubicaButton">Ubica tu tienda</string>
+    <string name="string_minijuegoButton">Minijuego</string>
 </resources>
