@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/menu_escanear_caja"
+            android:icon="@mipmap/ic_launcher"
+            android:title="@string/escanearCaja_title"/>
+        <item
+            android:id="@+id/menu_listar_juegos"
+            android:icon="@mipmap/ic_launcher"
+            android:title="@string/listarJuegos_title"/>
+        <item
+            android:id="@+id/menu_ubicar_tienda"
+            android:icon="@mipmap/ic_launcher"
+            android:title="@string/ubicarTienda_title"/>
+        <item
+            android:id="@+id/menu_mini_juego"
+            android:icon="@mipmap/ic_launcher"
+            android:title="@string/miniJuego_title"/>
+    </group>
+
+    <item
+        android:id="@+id/navigation_extras"
+        android:title="@string/otras_opciones_title">
+        <menu>
+            <item
+                android:id="@+id/menu_ayuda"
+                android:icon="@mipmap/ic_launcher"
+                android:title="@string/opcion_ayuda_title"/>
+            <item
+                android:id="@+id/menu_equipo"
+                android:icon="@mipmap/ic_launcher"
+                android:title="@string/opcion_equipo_title"/>
+        </menu>
+    </item>
+</menu>

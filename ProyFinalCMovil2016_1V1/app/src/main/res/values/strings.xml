@@ -10,4 +10,7 @@
     <string name="string_listadoButton">Listado de juegos</string>
     <string name="string_ubicaButton">Ubica tu tienda</string>
     <string name="string_minijuegoButton">Minijuego</string>
+    <string name="otras_opciones_title">Otras Opciones</string>
+    <string name="opcion_ayuda_title">Ayuda</string>
+    <string name="opcion_equipo_title">Equipo o algo ms</string>
 </resources>

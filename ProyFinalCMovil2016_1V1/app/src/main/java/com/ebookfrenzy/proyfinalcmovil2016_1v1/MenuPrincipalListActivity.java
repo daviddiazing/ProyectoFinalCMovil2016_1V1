@@ -7,13 +7,13 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
 public class MenuPrincipalListActivity extends AppCompatActivity {
-
+    /*
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_menu_principal_list);
     }
-	
+
 	public void escanearCaja(View view) {
         Intent i = new Intent(this, EscanearCajaActivity.class);
         startActivity(i);
@@ -32,8 +32,6 @@ public class MenuPrincipalListActivity extends AppCompatActivity {
 	public void miniJuego(View view) {
         Intent i = new Intent(this, MiniJuegoActivity.class);
         startActivity(i);
-    }
-	
-	
+    }*/
 
 }
