@@ -3,8 +3,10 @@
     package="com.ebookfrenzy.proyfinalcmovil2016_1v1" >
 
     <!-- Permisos -->
-    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
-    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
 
     <application
         android:allowBackup="true"
@@ -22,14 +24,23 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".MainActivity"
-            android:label="@string/app_name"
-            >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
         </activity>
-
         <activity
             android:name=".MenuPrincipalListActivity"
             android:label="@string/menu_principal_title" >
+        </activity>
+
+        <service
+            android:name=".BoundService"
+            android:enabled="true"
+            android:exported="true" >
+        </service>
+
+        <activity android:name=".TodasLasTiendasActivity"
+            android:label="@string/todas_las_tiendas_title">
         </activity>
     </application>
 

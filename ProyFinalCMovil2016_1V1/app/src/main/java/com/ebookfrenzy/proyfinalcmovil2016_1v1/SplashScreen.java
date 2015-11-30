@@ -10,11 +10,23 @@ import android.view.MenuItem;
 import android.widget.ProgressBar;
 import android.os.Handler;
 
+
+import android.os.IBinder;
+import android.content.Context;
+import android.content.Intent;
+import android.content.ComponentName;
+import android.content.ServiceConnection;
+import com.ebookfrenzy.proyfinalcmovil2016_1v1.BoundService.MyLocalBinder;
+
+
 public class SplashScreen extends AppCompatActivity {
 
 	private ProgressBar mProgress;
 	private int mProgressStatus = 0;
 	private Handler mHandler = new Handler();
+
+    BoundService myService;//gps
+    boolean isBound = false;//gps
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -23,6 +35,8 @@ public class SplashScreen extends AppCompatActivity {
          setContentView(R.layout.splash_screen);
         mProgress = (ProgressBar) findViewById(R.id.progressBar);
 
+        Intent intent = new Intent(this, BoundService.class);//levantar servicio gps
+        bindService(intent, myConnection, Context.BIND_AUTO_CREATE);//levantar servicio gps
 
         new Thread(new Runnable() {
             public void run() {
@@ -72,4 +86,20 @@ public class SplashScreen extends AppCompatActivity {
 
         return super.onOptionsItemSelected(item);
     }
+
+    //conexión para el gps
+    private ServiceConnection myConnection = new ServiceConnection()
+    {
+
+        public void onServiceConnected(ComponentName className,
+                                       IBinder service) {
+            MyLocalBinder binder = (MyLocalBinder) service;
+            myService = binder.getService();
+            isBound = true;
+        }
+
+        public void onServiceDisconnected(ComponentName arg0) {
+            isBound = false;
+        }
+    };
 }
