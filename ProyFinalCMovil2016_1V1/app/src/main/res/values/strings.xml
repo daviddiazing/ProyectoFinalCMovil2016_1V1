@@ -13,5 +13,7 @@
     <string name="otras_opciones_title">Otras Opciones</string>
     <string name="opcion_ayuda_title">Ayuda</string>
     <string name="opcion_equipo_title">Equipo o algo ms</string>
-    <string name="todas_las_tiendas_title">Mis tiendas</string>
+    <string name="todas_las_tiendas_title">Localizando tiendas...</string>
+    <string name="Listado_tiendas_title">Listado de tiendas</string>
+    <string name="title_activity_maps">Map</string>
 </resources>
