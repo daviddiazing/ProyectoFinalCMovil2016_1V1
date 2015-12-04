@@ -16,4 +16,6 @@
     <string name="todas_las_tiendas_title">Localizando tiendas...</string>
     <string name="Listado_tiendas_title">Listado de tiendas</string>
     <string name="title_activity_maps">Map</string>
+    <string name="title_activity_ahorcado">Ahorcado</string>
+    <string name="title_activity_BuscarPalabrasAhorcado">Buscando palabra...</string>
 </resources>

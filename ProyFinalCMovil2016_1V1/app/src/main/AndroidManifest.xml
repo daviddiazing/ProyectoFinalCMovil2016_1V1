@@ -63,6 +63,13 @@
             android:name=".MapsActivity"
             android:label="@string/title_activity_maps" >
         </activity>
+        <activity
+            android:name=".AhorcadoActivity"
+            android:label="@string/title_activity_ahorcado" >
+        </activity>
+        <activity android:name=".BuscarPalabraActivity"
+            android:label="@string/title_activity_BuscarPalabrasAhorcado">
+        </activity>
     </application>
 
 </manifest>
