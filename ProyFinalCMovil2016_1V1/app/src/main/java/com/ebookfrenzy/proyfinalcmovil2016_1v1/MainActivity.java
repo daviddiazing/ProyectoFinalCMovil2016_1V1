@@ -19,7 +19,7 @@ import com.ebookfrenzy.proyfinalcmovil2016_1v1.BoundService.MyLocalBinder;
 
 
 /**
- * Created by JUANITO on 14/11/2015.
+ * Created by NORUEGO on 14/11/2015.
  */
 public class MainActivity extends AppCompatActivity{
 
@@ -77,9 +77,9 @@ public class MainActivity extends AppCompatActivity{
                                     .commit();
 
                             menuItem.setChecked(true);
-                            getSupportActionBar().setTitle(menuItem.getTitle());
-                            if(miTienda)
-                                getSupportActionBar().setTitle("ProyFinalCMovil2016_1V1");
+                            // getSupportActionBar().setTitle(menuItem.getTitle());
+                            // if(miTienda)
+                                // getSupportActionBar().setTitle("ProyFinalCMovil2016_1V1");
                         }
 
                         drawerLayout.closeDrawers();

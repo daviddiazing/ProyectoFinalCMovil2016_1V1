@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/ProyFinalCMovil2016_1V1.iml" filepath="$PROJECT_DIR$/ProyFinalCMovil2016_1V1.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/wikitude-native-sdk/wikitude-native-sdk.iml" filepath="$PROJECT_DIR$/wikitude-native-sdk/wikitude-native-sdk.iml" />
     </modules>
   </component>
 </project>
